@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CLONE-AI-GEMINI-SR</title>
+    <link rel="icon" href="gemini-chatbot-logo.svg">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded&display=swap">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="app-header">
+            <h1 class="heading">Hello,there</h1>
+            <h2 class="sub-heading">how can i help you?</h2>
+        </header>
+
+        <ul class="suggestions">
+            <li class="suggestions-item">
+                <p class="text">Design a home office setup for remote work under $500.</p>
+
+                <span class="material-symbols-outlined">
+                    draw
+                </span>
+            </li>
+            <li class="suggestions-item">
+                <p class="text">how can i level up any web development expertise in 2025?</p>
+
+                <span class="material-symbols-outlined">
+                    lightbulb
+                </span>
+            </li>
+            <li class="suggestions-item">
+                <p class="text">suggest some useful tools for debugging javascript code</p>
+
+                <span class="material-symbols-outlined">
+                    explore
+                </span>
+            </li>
+            <li class="suggestions-item">
+                <p class="text">create a react js component for the simple todo list app</p>
+                <span class="material-symbols-outlined">
+                    code_blocks
+                </span>
+            </li>
+        </ul>
+
+        <div class="chats-container">
+        </div>
+
+
+        <div class="prompt-container">
+            <div class="prompt-wrapper">
+                <form action="#" class="prompt-form">
+                    <input type="text" placeholder="Ask Gemini" class="prompt-input" required>
+
+                    <div class="prompt-action">
+                        <div class="file-upload-wrapper">
+
+                            <button id="cancel-file-btn" type="button" class="material-symbols-rounded"><span
+                                    class="material-symbols-outlined">
+
+                                </span></button>
+
+                        </div>
+
+                        <button type="button" id="stop-response-btn" class="material-symbols-rounded"><span
+                                class="material-symbols-outlined">
+                                stop_circle
+                            </span></button>
+                        <button id="send-file-btn" class="material-symbols-rounded"><span
+                                class="material-symbols-outlined">
+                                arrow_upward
+                            </span></button>
+
+                    </div>
+                </form>
+
+                <button id="theme-toggle-btn" class="material-symbols-rounded">
+                    light_mode
+                </button>
+                <button id="delete-chats-btn" class="material-symbols-rounded"><span class="material-symbols-outlined">
+                        delete
+                    </span></button>
+            </div>
+            <p class="disclaimer-text">This Gemini AI is designed by Sureshraj for educational purposes only.</p>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
